@@ -6,13 +6,13 @@ x = input("enter your number :")
 y = float(x)
 
 #check the number can division
-if y%6==0 :
+if y % 6 == 0:
   print("it can be number 6")
-elif y%3==0 :
+elif y % 3 == 0:
   print("it can be number 3")
-elif y%2==0 :
+elif y % 2 == 0:
   print("it can be number 2")
-elif y%5==0 :
+elif y % 5 == 0:
   print("it can be number 5")
 
 #if number can't division then this code start working
