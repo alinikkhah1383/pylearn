@@ -17,4 +17,4 @@ elif y%5==0 :
 
 #if number can't division then this code start working
 else:
-  print("it can't division numbers 2,3 & 6")
+  print("it can't division numbers 2, 3, 5 & 6")
