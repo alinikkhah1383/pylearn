@@ -7,10 +7,21 @@ print('this script find square root of any number')
 number = input('enter your number : ')
 number = float(number)
 
-#square root of two known number
+#square root of number 1 and 0
 if (number == 0 or number == 1):
-    squ = number
+    guess = number
+
+#square root of unknown number
+else :
+    guess = number / 2
+    step = 0
+
+    while ( abs(number - guess**2) > 0.001 ):
+        step = step + 1
+        print('you are in step ', step, ' and your guss is ', guess) 
+        division = number / guess
+        guess = (division + guess) / 2
 
 #print export
-print('square root is : ', squ)
+print('square root is : ', guess)
 
