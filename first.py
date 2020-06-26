@@ -20,4 +20,3 @@ elif y % 2 == 0:
 #if number can't division then this code start working
 else:
   print("it can't division numbers 2, 3, 4, 5 & 6")
-
